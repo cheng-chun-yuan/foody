@@ -27,7 +27,7 @@ const init = () => {
   );
   // cross domain
   const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://foody-git-main-cheng-chun-yuan.vercel.app',
     credentials: true,
   };
   app.use(cors(corsOptions));
